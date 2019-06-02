@@ -1,25 +1,25 @@
 def welcome
-  # code #welcome here
+  puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
-  # code #deal_card here
-end
+def deal_card() 
+  return 3
+  end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(4)
+  puts "Your cards add up to #{card_total}"
 end
 
 def prompt_user
-  # code #prompt_user here
+puts "Type 'h' to hit or 'so'to stay"
 end
 
 def get_user_input
-  # code #get_user_input here
+  gets.chomp
 end
 
-def end_game
-  # code #end_game here
+def end_game(28)
+  puts "Sorry, you hit #{card_total}. Thanks for playing!"
 end
 
 def initial_round
